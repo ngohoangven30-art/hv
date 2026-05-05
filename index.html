@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ngô Hoàng Vẹn - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Ngô Hoàng Vẹn</h1>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                <span class="toggle-icon">🌙</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container">
+                <h1 class="hero-name">Ngô Hoàng Vẹn</h1>
+                <p class="hero-role">Graphic Designer</p>
+                <p class="hero-tagline">Biến ý tưởng thành hình ảnh – sáng tạo không giới hạn.</p>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">Về Tôi</h2>
+                <p class="about-text">
+                    Tôi là sinh viên ngành Thiết kế Đồ họa với niềm đam mê sáng tạo và phát triển ý tưởng hình ảnh.
+                    Hiện tại, tôi đang tập trung nâng cao kỹ năng thiết kế bằng các công cụ như Photoshop và xây dựng portfolio cá nhân.
+                    Định hướng trong tương lai là trở thành một Graphic Designer chuyên nghiệp và mở studio thiết kế riêng.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Kỹ Năng</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>Adobe Photoshop</h3>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Thiết kế poster, banner</h3>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Chỉnh sửa hình ảnh</h3>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Tư duy sáng tạo</h3>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Làm việc nhóm</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        const themeToggle = document.getElementById('theme-toggle');
+        const body = document.body;
+
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            const icon = themeToggle.querySelector('.toggle-icon');
+            icon.textContent = body.classList.contains('dark-mode') ? '☀️' : '🌙';
+        });
+    </script>
+</body>
+</html>
