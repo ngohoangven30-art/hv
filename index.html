@@ -1,143 +1,108 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ngô Hoàng Vẹn - Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ngô Hoàng Vẹn Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1 class="logo">Ngô Hoàng Vẹn</h1>
-            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
-                <span class="toggle-icon">🌙</span>
-            </button>
-        </div>
-    </header>
 
-    <main>
-        <section id="hero" class="hero">
-            <div class="container">
-                <h1 class="hero-name">Ngô Hoàng Vẹn</h1>
-                <p class="hero-role">Graphic Designer</p>
-                <p class="hero-tagline">Biến ý tưởng thành hình ảnh – sáng tạo không giới hạn.</p>
-            </div>
-        </section>
+<header class="navbar">
+  <div class="logo">NV</div>
+  <button id="theme-toggle">🌙</button>
+</header>
 
-        <section id="about" class="about">
-            <div class="container">
-                <h2 class="section-title">Về Tôi</h2>
-                <p class="about-text">
-                    Tôi là sinh viên ngành Thiết kế Đồ họa với niềm đam mê sáng tạo và phát triển ý tưởng hình ảnh.
-                    Hiện tại, tôi đang tập trung nâng cao kỹ năng thiết kế bằng các công cụ như Photoshop và xây dựng portfolio cá nhân.
-                    Định hướng trong tương lai là trở thành một Graphic Designer chuyên nghiệp và mở studio thiết kế riêng.
-                </p>
-            </div>
-        </section>
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Ngô Hoàng Vẹn</h1>
+    <h2>Graphic Designer</h2>
+    <p>
+      Biến ý tưởng thành hình ảnh<br>
+      Sáng tạo không giới hạn.
+    </p>
+  </div>
+</section>
 
-        <section id="projects" class="projects">
-            <div class="container">
-                <h2 class="section-title">Dự Án</h2>
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <div class="project-image">
-                            <div class="image-placeholder">Poster Quảng Cáo</div>
-                        </div>
-                        <div class="project-overlay">
-                            <h3>Poster Quảng Cáo</h3>
-                            <p>Thiết kế poster quảng cáo sản phẩm với phong cách hiện đại</p>
-                            <span>Vai trò: Lên ý tưởng, thiết kế, chỉnh sửa</span>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <div class="project-image">
-                            <div class="image-placeholder">Banner Mạng Xã Hội</div>
-                        </div>
-                        <div class="project-overlay">
-                            <h3>Banner Mạng Xã Hội</h3>
-                            <p>Thiết kế banner cho Facebook/Instagram</p>
-                            <span>Vai trò: Thiết kế chính</span>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <div class="project-image">
-                            <div class="image-placeholder">Sticker Zalo</div>
-                        </div>
-                        <div class="project-overlay">
-                            <h3>Sticker Zalo</h3>
-                            <p>Bộ sticker cảm xúc dễ thương</p>
-                            <span>Vai trò: Thiết kế + sáng tạo biểu cảm</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+<!-- ABOUT -->
+<section class="about">
+  <h2>Giới thiệu</h2>
+  <p>
+    Tôi là sinh viên ngành Thiết kế Đồ họa với niềm đam mê sáng tạo và phát triển ý tưởng hình ảnh.
+    Hiện tại, tôi đang tập trung nâng cao kỹ năng thiết kế bằng các công cụ như Photoshop và xây dựng portfolio cá nhân.
+    Định hướng trong tương lai là trở thành một Graphic Designer chuyên nghiệp và mở studio thiết kế riêng.
+  </p>
+</section>
 
-        <section id="skills" class="skills">
-            <div class="container">
-                <h2 class="section-title">Kỹ Năng & Kinh Nghiệm</h2>
-                <div class="skills-exp-content">
-                    <div class="skills-list">
-                        <h3>Kỹ Năng</h3>
-                        <div class="skill-item">
-                            <span>Photoshop:</span>
-                            <div class="stars">⭐⭐⭐⭐☆</div>
-                        </div>
-                        <div class="skill-item">
-                            <span>Illustrator:</span>
-                            <div class="stars">⭐⭐⭐☆☆</div>
-                        </div>
-                        <div class="skill-item">
-                            <span>Sáng tạo:</span>
-                            <div class="stars">⭐⭐⭐⭐⭐</div>
-                        </div>
-                        <div class="skill-item">
-                            <span>Teamwork:</span>
-                            <div class="stars">⭐⭐⭐⭐☆</div>
-                        </div>
-                    </div>
-                    <div class="experience-list">
-                        <h3>Kinh Nghiệm</h3>
-                        <ul>
-                            <li>Phát triển các sản phẩm thiết kế phục vụ mục đích truyền thông</li>
-                            <li>Có khả năng tư duy hình ảnh và xây dựng concept sáng tạo</li>
-                            <li>Làm việc độc lập và quản lý thời gian hiệu quả</li>
-                            <li>Có kinh nghiệm chỉnh sửa và tối ưu hình ảnh</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
+<!-- PROJECTS -->
+<section class="projects">
+  <h2>Dự án</h2>
+  <div class="project-grid">
 
-        <section id="contact" class="contact">
-            <div class="container">
-                <h2 class="section-title">Liên Hệ</h2>
-                <div class="contact-content">
-                    <div class="contact-info">
-                        <p><span class="icon">📧</span> Email: <a href="mailto:ngohoangven30@gmail.com">ngohoangven30@gmail.com</a></p>
-                        <p><span class="icon">📱</span> SĐT: 0335980544</p>
-                        <p><span class="icon">📸</span> Facebook: <a href="https://www.facebook.com/share/1KmVrADJnt/?mibextid=wwXIfr" target="_blank">Facebook Profile</a></p>
-                    </div>
-                    <blockquote class="contact-quote">
-                        "Hãy liên hệ với tôi để cùng tạo ra những sản phẩm sáng tạo và ấn tượng!"
-                    </blockquote>
-                    <a href="mailto:ngohoangven30@gmail.com" class="contact-btn">Liên Hệ Ngay</a>
-                </div>
-            </div>
-        </section>
-    </main>
+    <div class="card">
+      <div class="img"></div>
+      <h3>Poster Quảng Cáo</h3>
+      <p>Thiết kế poster quảng cáo sản phẩm với phong cách hiện đại</p>
+      <span>Vai trò: Lên ý tưởng, thiết kế, chỉnh sửa</span>
+    </div>
 
-    <script>
-        const themeToggle = document.getElementById('theme-toggle');
-        const body = document.body;
+    <div class="card">
+      <div class="img"></div>
+      <h3>Banner Mạng Xã Hội</h3>
+      <p>Thiết kế banner cho Facebook/Instagram</p>
+      <span>Vai trò: Thiết kế chính</span>
+    </div>
 
-        themeToggle.addEventListener('click', () => {
-            body.classList.toggle('dark-mode');
-            const icon = themeToggle.querySelector('.toggle-icon');
-            icon.textContent = body.classList.contains('dark-mode') ? '☀️' : '🌙';
-        });
-    </script>
+    <div class="card">
+      <div class="img"></div>
+      <h3>Sticker Zalo</h3>
+      <p>Bộ sticker cảm xúc dễ thương</p>
+      <span>Vai trò: Thiết kế + sáng tạo biểu cảm</span>
+    </div>
+
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="skills">
+  <h2>Kỹ năng & Kinh nghiệm</h2>
+
+  <div class="skill-list">
+    <p>Photoshop: ⭐⭐⭐⭐☆</p>
+    <p>Illustrator: ⭐⭐⭐☆☆</p>
+    <p>Sáng tạo: ⭐⭐⭐⭐⭐</p>
+    <p>Teamwork: ⭐⭐⭐⭐☆</p>
+  </div>
+
+  <ul>
+    <li>Phát triển sản phẩm thiết kế truyền thông</li>
+    <li>Tư duy hình ảnh và xây dựng concept</li>
+    <li>Làm việc độc lập và quản lý thời gian</li>
+    <li>Chỉnh sửa và tối ưu hình ảnh</li>
+  </ul>
+</section>
+
+<!-- CONTACT -->
+<section class="contact">
+  <h2>Liên hệ</h2>
+  <p>Email: ngohoangven30@gmail.com</p>
+  <p>SĐT: 0335980544</p>
+  <p>Facebook: link cá nhân</p>
+
+  <blockquote>
+    “Hãy liên hệ với tôi để cùng tạo ra những sản phẩm sáng tạo và ấn tượng!”
+  </blockquote>
+</section>
+
+<script>
+const toggle = document.getElementById('theme-toggle');
+toggle.onclick = () => {
+  document.body.classList.toggle('dark');
+  toggle.textContent = document.body.classList.contains('dark') ? '☀️' : '🌙';
+};
+</script>
+
 </body>
 </html>
